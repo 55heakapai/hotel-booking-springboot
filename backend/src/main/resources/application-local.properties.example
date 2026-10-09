@@ -1,0 +1,10 @@
+# Copy this file to application-local.properties (it is git-ignored) and fill in your values.
+spring.datasource.url=jdbc:postgresql://localhost:5432/stayease_db
+spring.datasource.username=postgres
+spring.datasource.password=YOUR_POSTGRES_PASSWORD
+
+# Generate with: openssl rand -base64 48   (or any Base64 string of 32+ bytes)
+app.jwt.secret=PASTE_BASE64_SECRET_HERE
+
+app.admin.email=admin@stayease.com
+app.admin.password=Admin@12345
