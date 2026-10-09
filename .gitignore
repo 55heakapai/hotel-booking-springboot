@@ -1,0 +1,31 @@
+```gitignore
+# Java / Maven
+target/
+*.class
+*.jar
+*.log
+.mvn/wrapper/maven-wrapper.jar
+
+# Node
+node_modules/
+frontend/build/
+
+# Secrets / environment files
+.env
+.env.*
+!.env.example
+!.env.example.*
+*.pem
+application-local.properties
+backend/src/main/resources/application-prod.properties
+
+# IDE / OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+
+# Uploaded files
+uploads/
+backend/uploads/
+```
