@@ -1,5 +1,3 @@
-# Run and demo locally (no Docker)
-
 ## Prerequisites
 - JDK 17, Maven 3.9+, Node 20+
 - PostgreSQL 14+ (installer from postgresql.org, includes pgAdmin). Remember the `postgres` password you set.
